@@ -1,7 +1,7 @@
 /* ======== COMMON STYLES ======== */
 body{
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
+    color: #434455;
     background: #ffffff;
 }
 li,
@@ -11,27 +11,31 @@ ul {
 a{
     text-decoration: none;
 }
+
 button{
     cursor: pointer;
 }
  /* ======== HEADER STYLES ======== */
 .logo{
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.7;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        color: #4d5ae5;
 }
-.text-color-blue{
-    color: #4d5ae5
+.text-color-black{
+    color: #2e2f42
 }
 .menu-link{
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        color: #2e2f42;
 }
-.contacts-link{
+.contacts{
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -54,20 +58,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #404bbf;
 }
-.button-to-buy{
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
-    border-radius: 4px;
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff;
-}
-.button-to-buy:hover{
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-background: #404bbf;
-}
 /* ======== HERO STYLES ======== */
 .I-dont-know-how-it-name{
     background: #2e2f42;
@@ -75,17 +65,31 @@ background: #404bbf;
 .hero-text{
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
 }
+.button-to-buy {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+.button-to-buy:hover {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #404bbf;
+}
 /* ======== BENEFITS STYLES ======== */
-.benefits{
+.benefits-link{
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        color: #2e2f42;
 }
 .text-of-benefits{
     font-weight: 400;
@@ -95,12 +99,20 @@ background: #404bbf;
         color: #434455;
 }
 /* ======== PORTFOLIO STYLES ======== */
+.portfolio-section{
+    background: #f4f4fd;
+}
 .workers{
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize
+        color: #2e2f42;
+}
+.portfolio-section-items{
+    background-color: #FFFFFF
 }
 .names{
 font-weight: 500;
@@ -108,6 +120,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
+color: #2e2f42;
 }
 .works-of-workers{
     font-weight: 400;
@@ -117,18 +130,21 @@ text-align: center;
         text-align: center;
         color: #434455;
 }
-.portfolios-of-worlers{
+/*--========PORTFOLIO OF WORK========--*/
+.portfolios-of-work{
     font-weight: 700;
         font-size: 36px;
         line-height: 1.11111;
         letter-spacing: 0.02em;
         text-align: center;
+        color: #2e2f42;
 }
 .app-tasks{
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        color: #2e2f42;
 }
 /* ======== FOOTER STYLES ======== */
 .page-footer{
@@ -136,6 +152,13 @@ text-align: center;
 }
 .logo-in-footer{
         color: #f4f4fd;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+            font-size: 18px;
+            line-height: 1.7;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #4d5ae5;
 }
 .names-of-apps{
     font-weight: 400;
@@ -150,4 +173,7 @@ text-align: center;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+}
+.text-color-white{
+    color: #f4f4fd
 }
