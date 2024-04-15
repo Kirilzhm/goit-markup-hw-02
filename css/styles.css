@@ -87,14 +87,14 @@ color: #404bbf;
     background: #404bbf;
 }
 /* ======== BENEFITS STYLES ======== */
-.benefits-of-team{
+.benefits{
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.benefits-paragraph{
+.paragraph-of-benefits{
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
