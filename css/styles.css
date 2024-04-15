@@ -82,18 +82,19 @@ color: #404bbf;
     letter-spacing: 0.04em;
     color: #fff;
 }
-.button-to-buy:hover {
-    background-color: #404BBF
+.button-to-buy:hover,
+.button-to-buy:focus{
+    background: #404bbf;
 }
 /* ======== BENEFITS STYLES ======== */
-.benefits-link{
+.benefits-of-team{
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.text-of-benefits{
+.benefits-paragraph{
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -141,7 +142,7 @@ color: #2e2f42;
 .portfolios-of-work{
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
