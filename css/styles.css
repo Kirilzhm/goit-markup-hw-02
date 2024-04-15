@@ -135,6 +135,8 @@ color: #2e2f42;
 /*--========PORTFOLIO OF WORK========--*/
 .portfolio-of-work-section{
     color: #ffffff;
+    line-height: 1.11;
+    text-transform: capitalize;
 }
 .portfolios-of-work{
     font-weight: 700;
